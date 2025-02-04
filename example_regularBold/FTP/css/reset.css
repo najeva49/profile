@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+/* reset.css */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li {
+list-style: none;
+}
+
+/* 이 목록 태그 방법 기억하기~  */
+ul::after, ol::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+li {
+    float: left;
+}
+
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400; /* 400 = normal */
+}
+
+
+/* 이미지 블럭 처리 많이 하니까 리셋css에서 주고 가도 좋아요~ */

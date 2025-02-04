@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* *******common************************* */
+/* 공통으로 사용할 css를 모아놓은 파일! */
+
+/* 플롯해제를 위한 가상요소
+-플롯안될때- 
+1.after나 before 가상요소가 없을때
+2. . (마침표)가 없을때
+3. 지정한 위치가 잘못된 경우*/
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 안쪽에서 컨텐츠 너비를 잡아줄때 사용할 클래스! */
+.inner {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* 구글 웹폰트  (원래는 font css로 따로 만듬)*/
+/* 
+1. merriweather 폰트 사용
+ font-family: "Merriweather", serif;
+ font-weight: 300 | 400 | 700 |900;
+
+ 2) 나눔고딕
+  font-family: "Nanum Gothic", serif;
+  font-weight: 400 | 700 | 800;
+*/
+
+/* 본문 영역 제목에 공통으로 적용될 디자인 */
+.sec-tit {
+    /* 뭐뭐의 포함 이름이 없는 것은 문서와 상관없이 이름이거 가지고 있으면 이거 적용해! 라는 뜻 */
+    color: rgb(207, 102, 26);
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+}
+
+.eng {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+}
+
+body {
+    font-family: "Nanum Gothic", serif;
+    font-weight: 400;
+    color: #333;
+}

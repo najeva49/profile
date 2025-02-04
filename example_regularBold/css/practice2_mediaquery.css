@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+
+@media all and (max-width: 768px) {
+
+    header .gnb,
+    .sns {
+        display: none;
+    }
+
+    header .m-menu {
+        display: block;
+        float: right;
+    }
+
+    header .m-menu img {
+        height: 50px;
+        display: block;
+    }
+
+    article.intro {
+        background-size: 50%;
+        height: 400px;
+    }
+
+    article.intro .txt-box p.des-en {
+        font-size: 16px;
+        font-size: 1.0rem;
+    }
+
+    article.intro .txt-box p.des-ko {
+        font-size: 12.8px;
+        font-size: 0.8rem;
+    
+    }
+
+    article.intro .btn {
+        bottom: 3%;
+        font-size: 0.9rem;
+        padding: 8px 8px;
+    }
+
+    article.works .img-box-wrap .img-box {
+        width: 49%;
+    }
+
+    article.works .img-box-wrap .img-box:nth-child(2n+1) {
+        margin-left: 0;
+    }
+
+    article.about p {
+        width: 100%;
+        font-size: 17.6px;
+        font-size: 1.1rem;
+    }
+
+    article.news .box-wrap .box .title {
+        font-size: 12px;
+        font-size: 0.75rem;
+    }
+
+    section.contact .sec-tit {
+        font-size: 32px;
+        font-size: 2rem;
+    }
+
+    section.contact p {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    footer .top {
+        width: 5%;
+        right: 10px;
+        bottom: 20px;
+    }
+
+    footer .top img {
+        width: 100%;
+    }
+
+    footer .footer-box h4 {
+        font-size: 16px;
+        font-size: 1.0rem;
+    }
+
+    footer .footer-box p{
+
+        font-size: 12px;
+        font-size: 0.75rem;
+    }
+
+
+}
+
+/* mobile UI */
+
+@media all and (max-width: 375px) {
+    article.intro {
+        background: url(../images/rb_logo.png) no-repeat  bottom/auto 250px;
+        height: 500px;
+    }
+    article.intro .txt-box {
+        width: 100%;
+        top: 25px;
+    }
+
+    article.intro .btn {
+        bottom: 55%;
+    }
+
+    article.works .img-box-wrap .img-box {
+        width: 100%;
+    
+    }
+
+    article.works .img-box-wrap .img-box~.img-box {
+        margin-left: 0;
+    }
+
+    .btn {
+
+        font-size: 16px;
+        font-size: 1.0rem;
+        padding: 6px 8px;
+    }
+
+    article.about {
+        background-size: 800px;
+        padding-bottom: 150px;
+    }
+
+    article.about p {
+        font-size: 15.2px;
+        font-size: 0.95rem;
+    }
+ 
+    article.news .sec-tit {
+        text-align: center;
+    }
+
+    article.news>p {
+        text-align: center;
+        font-size: 12px;
+        font-size: 0.75rem;
+    }
+
+    article.news .box-wrap .box {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    article.news .box-wrap .box~.box {
+        margin-left: 0;
+    }
+
+    footer .footer-box {
+        width: 100%;
+        float: none;
+    }
+
+    footer .footer-box h4 {
+        margin-bottom: 3px;
+        margin-top: 20px;
+    }
+
+    footer .top {
+        width: 10%;
+        bottom: 110px;
+    }
+
+}
+
+

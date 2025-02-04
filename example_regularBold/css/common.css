@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+.inner {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.eng {
+font-family: "PT Serif", serif;
+}
+
+.sec-tit {
+    font-family: "PT Serif", serif; 
+    font-size: 32px;
+    font-size: 2rem;
+
+    margin-bottom: 20px;
+}
+
+
+
+.btn {
+
+   font-size: 16px;
+   font-size: 1.0rem;
+
+   border: 2px solid;
+
+   display: inline-block; 
+   padding: 8px 10px;
+   border-radius: 8px;
+
+
+}
+
+
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight : 400;
+}
+
